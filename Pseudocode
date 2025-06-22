@@ -1,0 +1,13 @@
+START
+Display menu with items and prices
+Initialize total = 0
+WHILE True
+    Ask user to input item or type 'exit'
+    IF user inputs 'exit'
+        BREAK
+    Ask for quantity
+    Calculate item price = price * quantity
+    Add to total
+Calculate GST = total * 0.15
+Display total and GST
+END
