@@ -1,38 +1,65 @@
-# Restaurant Ordering System - AS91896
+# 🍔 Mc'Download™ Backstage Ordering Program
 
-This is a simple Python program developed for the NCEA Level 2 Digital Technologies assessment (AS91896 - Use advanced programming techniques to develop a computer program).
+> *"Welcome to Mc'Download, where the burgers are virtual, the analysis is fake, and the waiting is eternal."*
 
-## 💡 Overview
+---
 
-The program simulates a basic restaurant ordering system. It allows users to:
+## 🎯 Project Overview
 
-- View a menu with item prices
-- Select items and quantities
-- Automatically calculate total cost and GST
-- Output a final summary
+This is a **gloriously dysfunctional** Python ordering system that simulates the worst parts of modern digital UX — including fake AI, slow loading bars, privacy warnings, and forced upsells.
 
-This project is aimed at small restaurant owners who need a fast, simple in-store ordering tool.
+It is not meant to work well.  
+It is meant to work *authentically badly*.
 
-## 🧠 Features
+---
 
-- `while` loops for continuous ordering
-- `if` statements for menu selection
-- Dictionary for item storage and pricing
-- Input validation to prevent incorrect values
-- GST calculation (15%)
+## 🧠 Features (or Crimes Against UX)
 
-## 🖥️ How to Run
+| Feature            | Description                                                                 |
+|--------------------|------------------------------------------------------------------------------|
+| 🧾 Menu Items       | Delightfully weird item names (Cool'Caal Cola, Nuggents, Push Cola...)       |
+| 🌀 Order Loop       | Infinite order input until you type `'done'`                                |
+| 💸 GST Calculation  | Applies 15% GST (New Zealand standard) with precision formatting             |
+| 🧠 Fake AI Loading  | Two different loading sequences with totally useless progress bars           |
+| 🧃 Recommendation Engine | Uses fake “2008 AI” to force a drink upsell — politely, then sarcastically |
+| 📄 Receipt Output   | Includes randomly generated Order ID and current timestamp                   |
+| 🔒 Double Privacy Reminders | Reassures you twice that we will “only” use your data “properly”       |
+| 🤡 Personalized Judgement | Based on how much you spent — from “tiny meal” to “big stomach king”     |
 
-1. Clone the repository:
-2. Open `StevenShi_AS91896.py` in VS Code or any Python IDE.
-3. Run the program:
+---
 
+## 🧪 How to Run
 
-## 📦 Requirements
+1. Install Python 3 if not already installed.
+2. Download the file `StevenShi_AS91896.py`.
+3. Run the script:
+   ```bash
+   python StevenShi_AS91896.py
+4. Sit back and enjoy a 5-star simulation of a 1-star digital experience.
 
-- Python 3.6+
-- No external libraries required
+📋 Sample Output Snippet
+vbnet
+Schedule: 60% - Reticulating fried fish splines...
+Schedule: 70% - Verifying soda carbonation level...
+>>> Based on your craving pattern, we *strongly* recommend a Cool'Caal Cola. Only $2.50!
+Would you like to add one? (yes/no): no
+>>> Your future self will regret this.
+🚨 Disclaimer
+This system is not associated with McDonald's, McDownload, or any legally functioning restaurant.
+It does not deliver food. It does not even try.
 
-## 🔗 Assessment Context
+This program exists purely for educational purposes and chaotic entertainment.
 
-This project was submitted as part of the AS91896 internal assessment for NCEA Level 2 Digital Technologies at WSCW.
+👨‍🍳 Author's Note
+"I don’t remember writing most of this, but it runs. And my teacher will probably laugh. That’s all that matters."
+— StevenShi (Founder & Chief Chaos Officer of Mc'Download™)
+
+🧾 License
+This project is distributed under the McMess Public License v1.0
+You are free to:
+· Copy 🍔
+
+· Remix 🍟
+
+· Regret 🥤
+Enjoy irresponsibly.
