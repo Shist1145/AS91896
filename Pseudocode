@@ -1,13 +1,44 @@
-START
-Display menu with items and prices
-Initialize total = 0
-WHILE True
-    Ask user to input item or type 'exit'
-    IF user inputs 'exit'
-        BREAK
-    Ask for quantity
-    Calculate item price = price * quantity
-    Add to total
-Calculate GST = total * 0.15
-Display total and GST
-END
+Start the program
+Import the time module, random module, date and time module
+
+Display a welcome message
+Initialize the total price to 0
+
+Define menu items (number: product name and price)
+
+Display the menu
+Prompt the user to enter the menu number until done is entered:
+If a valid number is entered:
+Request to enter the quantity
+Try to add the price multiplied by the quantity to the total price
+If the input quantity is invalid, an error message will be displayed
+Otherwise, an invalid selection will be prompted
+
+Calculate GST = total price * 15%
+
+Display the message "AI recommendation system loading"
+Create 10 fake loading statements, display them one by one, and use delays to increase the sense of reality
+
+Display "recommendation results"
+If French fries or chicken nuggets are ordered:
+Force a drink recommendation (Cool'Caal Cola)
+If the user accepts, add the price and print confirmation
+Otherwise print a sarcastic regret message
+Otherwise print "You didn't get sold, is there something wrong?"
+
+Prompt the user to enter their name and email
+Show a progress bar again (5 steps), simulate "Analyzing user information"
+
+Prompt analysis again, simulate the second loading (5 steps)
+
+Print electronic receipt:
+Randomly generate a 6-digit order number, prefixed with "MC"
+Get the current time
+Print the order number and time
+Show the total order price, GST, total amount
+Show user information (name + email)
+
+Show different levels of greetings based on the total price
+
+Print the final privacy reminder
+End the program
