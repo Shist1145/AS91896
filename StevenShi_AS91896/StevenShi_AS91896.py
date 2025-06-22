@@ -1,11 +1,11 @@
-# 无意义但必须要有的开头
+# start
 import time
 import random
 from datetime import datetime
-print("Welcome to Mc'Download backstage ordering program") # 绝对无意义的问候
+print("Welcome to Mc'Download backstage ordering program")
 print("Have a great choose for you meal!")
-buck = 0 # 如题，buck is dollor
-# 获取输入(let user choose item)
+buck = 0 # buck is dollor
+# let user choose item
 menu = {
         "1":("King Buger",14.00),
         "2":("Classic Buger",8.50),
@@ -25,7 +25,7 @@ for key,(item,price) in menu.items():
 
 print("print 'done' when your finished.\n")
 
-#点餐循环
+# Order Cycle
 while True:
     choice = input("Select item number: ")
     if choice.lower() == "done":
@@ -43,7 +43,7 @@ while True:
 # Here is New Zealand, GST is 15%
 GST = buck * 0.15 
 
-# 离谱推荐系统上线
+# Automatic recommendation system
 print("\nAnalyzing your taste preference using 2008 AI algorithm...\n")
 loading_phrases = [
     "Initializing neural ketchup network...",
@@ -64,8 +64,8 @@ for i, phrase in enumerate(loading_phrases):
 
 print("\n🍟 Recommendation Engine Results:")
 
-# “随机”推荐一个饮料（强制推销）
-if any(k in menu for k in ["4", "6"]):  # 如果点了薯条或鸡块
+# "Random" recommended drinks(sell)
+if any(k in menu for k in ["4", "6"]):  # IF order fries or nuggents
     print(">>> Based on your craving pattern, we *strongly* recommend a Cool'Caal Cola. Only $2.50!")
     force = input("Would you like to add one? (yes/no): ").strip().lower()
     if force == "yes":
@@ -85,17 +85,17 @@ email = input("Please enter your email:")
 print("\nAnalyzing, please wait...\n")
 for i in range(5):
     print("Schedule：{}%".format((i + 1) * 20))
-    time.sleep(1)  # 等待1秒
+    time.sleep(1)  # wait 1 s
 
-# 判断条件
+# Judgment conditions
 print("\nAnalysis completed, calculating prize and GST...\n")
 print("\nAnalyzing, please wait...\n")
 for i in range(5):
     print("Schedule：{}%".format((i + 1) * 20))
-    time.sleep(1)  # 等待1秒
+    time.sleep(1)  # wait 1 s
 print("The receipt has been printed. The electronic receipt is as follows:")
 
-# 插入点单号 + 时间
+# Insert order nmuber + time 
 order_id = "MC" + str(random.randint(100000, 999999))
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print("=======================================")
@@ -109,7 +109,7 @@ total = buck + GST
 print(f"Total (including GST): ${total:.2f}")
 print("Name:" ,name,"Email:",email)
 
-# 输出结果
+# print result
 if total >= 50:
     print("Have a nice meal for your family, or for youself. 'Big stomach king'.")
 elif total >= 40:
@@ -121,5 +121,6 @@ elif total >= 20:
 else:
     print("Well, enjoy a nice and tasty meal.")
 
-# 假装讨论点单内容
-print("\n[Privacy Reminder] We will send you meal soon, please wait you order.")  
+# pretend to discuss ordering
+print("\n[Privacy Reminder] We guarantee that this restaurant will only use this data to send electronic receipts and take orders.")
+print("\n[Ordering Prodece] We will send you meal soon, please wait you order.")  
