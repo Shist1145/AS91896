@@ -1,4 +1,4 @@
-Start the program
+Start
 Import the time module, random module, date and time module
 
 Display a welcome message
@@ -41,4 +41,4 @@ Show user information (name + email)
 Show different levels of greetings based on the total price
 
 Print the final privacy reminder
-End the program
+End
