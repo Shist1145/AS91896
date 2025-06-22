@@ -1,5 +1,7 @@
 # 无意义但必须要有的开头
 import time
+import random
+from datetime import datetime
 print("Welcome to Mc'Download backstage ordering program") # 绝对无意义的问候
 print("Have a great choose for you meal!")
 buck = 0 # 如题，buck is dollor
