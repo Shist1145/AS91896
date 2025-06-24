@@ -12,6 +12,9 @@ from datetime import datetime  # Used to obtain the current time and put it on t
 # Opening remarks, meaningless but necessary
 print("Welcome to Mc'Download backstage ordering program")
 print("Have a great choose for you meal!")  # Misspelled English is more realistic
+print("\n🧃 [Inclusive Beverage Policy]")
+print("To promote inclusive dining experiences, at least one carbonated drink must be included in your order.")
+print("This ensures equal refreshment access for all menu items.")
 
 buck = 0  # Total price variable in US dollars
 
@@ -78,16 +81,19 @@ for i, phrase in enumerate(loading_phrases):
 print("\n🍟 Recommendation Engine Results:")
 
 # If you order French fries or chicken nuggets, a drink is mandatory
-if any(k in menu for k in ["4", "6"]):
+while True:
     print(">>> Based on your craving pattern, we *strongly* recommend a Cool'Caal Cola. Only $2.50!")
-    force = input("Would you like to add one? (yes/no): ").strip().lower()
+    force = input("Would you like to add one? (yes/no/I want freedom): ").strip().lower()
+    
     if force == "yes":
         buck += 2.5
         print(">>> Cool'Caal Cola added. You're welcome.")
+        break
+    elif force == "i want freedom":
+        print(">>> Sorry, we currently do not support that level of independence.")
     else:
-        print(">>> Your future self will regret this.")  # Curse users: If you don’t buy it, you will regret it.
-else:
-    print(">>> No forced upsell detected. Are you okay?")  # Are you abnormal that you don't need our drinks?
+        print(">>> Access Denied. Our Diversity Policy requires cola consumption.")
+        print(">>> Please reconsider your decision as a loyal consumer.")
 
 # Start collecting user "personal information"
 print("\nThank you. Now let's collect your personal data—err, we mean 'details'.")
@@ -145,4 +151,4 @@ else:
     print("Well, enjoy a nice and tasty meal.")
 
 # Ending (privacy reminder again)
-print("\n[Privacy Reminder] We will send you meal soon, please wait you order.")  # I reminded you about privacy for the second time, but still no one believed me.
+print("\n[Privacy Reminder] We will send you meal soon, please wait you order.")  # I remi
